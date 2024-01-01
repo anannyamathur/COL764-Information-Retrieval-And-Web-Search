@@ -38,11 +38,11 @@ For challenge sets that only contain the playlist name but no track to continue 
 
 ## PRELIMINARY RESULTS:
 ```
-To make the code more efficient in terms of time and memory, the project considered the top m playlists most recently edited. The parameter m has to be tuned accordingly. Setting m=2000 did fairly well. Parameter s was set at 50 (as proposed in the paper[1]). It is observed that the quality of results degrades if too many neighbours are included. The authors concluded that considering 1000 nearest neighbours(=Parameter K) produced the best results, the project considered 50 neighbours to take into account the memory issues and to speed up the recommendation process. Furthermore, a corpus of pre-computed 500 most popular tracks was maintained (popularity was based on the number of playlists a track appeared in). This was done to address those challenge sets which had less than 500 tracks to recommend. 
+To make the code more efficient in terms of time and memory, the project considered the top m playlists most recently edited. The parameter m has to be tuned accordingly. Setting m=2000 did fairly well. Parameter s was set at 50 (as proposed in the paper[1]). It is observed that the quality of results degrades if too many neighbours are included. The authors concluded that considering 1000 nearest neighbours(=Parameter K) produced the best results. The project considered 50 neighbours to take into account memory issues and speed up the recommendation process. Furthermore, a corpus of pre-computed 500 most popular tracks was maintained (popularity was based on the number of playlists a track appeared in). This was done to address those challenge sets which had less than 500 tracks to recommend. 
 ```
 
 ## CODE DETAILS
-Obtain the dataset and the chalenge set from https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge
+Obtain the dataset and the challenge set from https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge
 
 
 ## RUNNING THE CODE
